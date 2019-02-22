@@ -1,0 +1,320 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 185296  5960 ?        Ss   Feb20   0:02 /lib/systemd/systemd --system --deserialize 22
+root         2  0.0  0.0      0     0 ?        S    Feb20   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S<   Feb20   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        S    Feb20   0:10 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        S    Feb20   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/2]
+root        21  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/2]
+root        22  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/3]
+root        26  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/3]
+root        30  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/4]
+root        32  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/4]
+root        33  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/4]
+root        34  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/4]
+root        36  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/4:0H]
+root        37  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/5]
+root        38  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/5]
+root        39  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/5]
+root        40  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/5]
+root        42  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/5:0H]
+root        43  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/6]
+root        44  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/6]
+root        45  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/6]
+root        46  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/6]
+root        48  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/6:0H]
+root        49  0.0  0.0      0     0 ?        S    Feb20   0:00 [cpuhp/7]
+root        50  0.0  0.0      0     0 ?        S    Feb20   0:00 [watchdog/7]
+root        51  0.0  0.0      0     0 ?        S    Feb20   0:00 [migration/7]
+root        52  0.0  0.0      0     0 ?        S    Feb20   0:00 [ksoftirqd/7]
+root        54  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/7:0H]
+root        55  0.0  0.0      0     0 ?        S    Feb20   0:00 [kdevtmpfs]
+root        56  0.0  0.0      0     0 ?        S<   Feb20   0:00 [netns]
+root        59  0.0  0.0      0     0 ?        S    Feb20   0:00 [khungtaskd]
+root        60  0.0  0.0      0     0 ?        S    Feb20   0:00 [oom_reaper]
+root        61  0.0  0.0      0     0 ?        S<   Feb20   0:00 [writeback]
+root        62  0.0  0.0      0     0 ?        S    Feb20   0:00 [kcompactd0]
+root        63  0.0  0.0      0     0 ?        SN   Feb20   0:00 [ksmd]
+root        64  0.0  0.0      0     0 ?        SN   Feb20   0:00 [khugepaged]
+root        65  0.0  0.0      0     0 ?        S<   Feb20   0:00 [crypto]
+root        66  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kintegrityd]
+root        67  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kblockd]
+root        75  0.0  0.0      0     0 ?        S<   Feb20   0:00 [ata_sff]
+root        76  0.0  0.0      0     0 ?        S<   Feb20   0:00 [md]
+root        77  0.0  0.0      0     0 ?        S<   Feb20   0:00 [edac-poller]
+root        78  0.0  0.0      0     0 ?        S<   Feb20   0:00 [devfreq_wq]
+root        80  0.0  0.0      0     0 ?        S<   Feb20   0:00 [watchdogd]
+root        83  0.0  0.0      0     0 ?        S    Feb20   0:00 [kauditd]
+root        84  0.0  0.0      0     0 ?        S    Feb20   0:00 [kswapd0]
+root        85  0.0  0.0      0     0 ?        S    Feb20   0:00 [ecryptfs-kthrea]
+root       127  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kthrotld]
+root       128  0.0  0.0      0     0 ?        S<   Feb20   0:00 [acpi_thermal_pm]
+root       136  0.0  0.0      0     0 ?        S<   Feb20   0:00 [ipv6_addrconf]
+root       165  0.0  0.0      0     0 ?        S<   Feb20   0:00 [charger_manager]
+root       222  0.0  0.0      0     0 ?        S<   Feb20   0:00 [nvme-wq]
+root       223  0.0  0.0      0     0 ?        S    Feb20   0:00 [scsi_eh_0]
+root       224  0.0  0.0      0     0 ?        S<   Feb20   0:00 [scsi_tmf_0]
+root       226  0.0  0.0      0     0 ?        S<   Feb20   0:00 [nvkm-disp]
+root       227  0.0  0.0      0     0 ?        S    Feb20   0:03 [i915/signal:0]
+root       228  0.0  0.0      0     0 ?        S    Feb20   0:00 [i915/signal:1]
+root       229  0.0  0.0      0     0 ?        S    Feb20   0:00 [i915/signal:2]
+root       230  0.0  0.0      0     0 ?        S    Feb20   0:00 [i915/signal:4]
+root       232  0.0  0.0      0     0 ?        S<   Feb20   0:00 [ttm_swap]
+root       270  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/2:1H]
+root       271  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/4:1H]
+root       273  0.0  0.0      0     0 ?        S    Feb20   0:01 [jbd2/nvme0n1p6-]
+root       274  0.0  0.0      0     0 ?        S<   Feb20   0:00 [ext4-rsv-conver]
+root       309  0.0  0.0  35396  7204 ?        Ss   Feb20   0:01 /lib/systemd/systemd-journald
+root       347  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/5:1H]
+root       355  0.0  0.0      0     0 ?        S<   Feb20   0:00 [loop0]
+root       358  0.0  0.0      0     0 ?        S<   Feb20   0:00 [loop1]
+root       361  0.0  0.0      0     0 ?        S<   Feb20   0:00 [loop2]
+root       365  0.0  0.0      0     0 ?        S<   Feb20   0:00 [loop3]
+root       367  0.0  0.0      0     0 ?        S<   Feb20   0:00 [loop4]
+root       368  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/6:1H]
+root       369  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/3:1H]
+root       371  0.0  0.0      0     0 ?        S<   Feb20   0:00 [loop5]
+systemd+   379  0.0  0.0 102384  2632 ?        Ssl  06:49   0:00 /lib/systemd/systemd-timesyncd
+root       391  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/1:1H]
+root       395  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/0:1H]
+root       455  0.0  0.0      0     0 ?        S<   Feb20   0:02 [kworker/u17:0]
+root       461  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/u17:2]
+root       463  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kmemstick]
+root       467  0.0  0.0      0     0 ?        S<   Feb20   0:00 [cfg80211]
+root       475  0.1  0.0      0     0 ?        S    Feb20   1:09 [irq/126-iwlwifi]
+root       496  0.0  0.0      0     0 ?        S    Feb20   0:11 [irq/51-DLL07D0:]
+root       550  0.0  0.0      0     0 ?        S<   Feb20   0:00 [kworker/7:1H]
+root       973  0.0  0.0  29008  2996 ?        Ss   Feb20   0:00 /usr/sbin/cron -f
+root       977  0.0  0.0 413524  8992 ?        Ssl  Feb20   0:00 /usr/sbin/ModemManager
+root       978  0.0  0.0  28644  3100 ?        Ss   Feb20   0:01 /lib/systemd/systemd-logind
+root       985  0.0  0.0 166424  8820 ?        Ssl  Feb20   0:43 /usr/sbin/thermald --no-daemon --dbus-enable
+root       991  0.0  0.0 275888  6292 ?        Ssl  Feb20   0:00 /usr/lib/accountsservice/accounts-daemon
+root       997  0.0  0.0   4396  1284 ?        Ss   Feb20   0:00 /usr/sbin/acpid
+message+  1007  0.0  0.0  44500  5400 ?        Ss   Feb20   0:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1045  0.0  0.1 524432 18796 ?        Ssl  Feb20   0:21 /usr/sbin/NetworkManager --no-daemon
+syslog    1047  0.0  0.0 256396  3480 ?        Ssl  Feb20   0:00 /usr/sbin/rsyslogd -n
+root      1104  0.0  0.0  19536  2244 ?        Ss   Feb20   0:05 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+colord    1123  0.0  0.0 301208 10988 ?        Ssl  Feb20   0:00 /usr/lib/colord/colord
+root      1124  0.0  0.0 282224  8876 ?        Ssl  Feb20   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1161  0.0  0.0 350376  5960 ?        Ssl  Feb20   0:00 /usr/sbin/lightdm
+root      1180  0.5  1.1 635896 183688 tty7    Ssl+ Feb20   6:11 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1196  0.0  0.0  44248  7736 ?        Ss   Feb20   0:03 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1218  0.0  0.0 228240  6128 ?        Sl   Feb20   0:00 lightdm --session-child 12 15
+abby      1223  0.0  0.0  45280  4652 ?        Ss   Feb20   0:00 /lib/systemd/systemd --user
+abby      1224  0.0  0.0  63296  1920 ?        S    Feb20   0:00 (sd-pam)
+abby      1227  0.0  0.0  46456  4628 ?        Ss   Feb20   0:00 /sbin/upstart --user
+abby      1306  0.0  0.0  32860   276 ?        S    Feb20   0:00 upstart-udev-bridge --daemon --user
+abby      1314  0.0  0.0  44360  4992 ?        Ss   Feb20   0:05 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-9TqYI8n2aR
+abby      1326  0.0  0.0  86344  9988 ?        Ss   Feb20   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+abby      1345  0.0  0.0 205208  6548 ?        SLl  Feb20   0:00 gnome-keyring-daemon --start --components pkcs11,secrets
+abby      1371  0.0  0.3 598284 64620 ?        Ssl  Feb20   0:07 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+abby      1373  0.0  0.0  32792   328 ?        S    Feb20   0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+abby      1375  0.0  0.0  41284  2124 ?        S    Feb20   0:00 upstart-file-bridge --daemon --user
+abby      1377  0.0  0.0  32792   332 ?        S    Feb20   0:02 upstart-dbus-bridge --daemon --system --user --bus-name system
+abby      1379  0.0  0.0 347884  9544 ?        Ssl  Feb20   0:21 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+abby      1386  0.0  0.0 757860  6608 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfsd
+abby      1393  0.0  0.0 406864  4796 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+abby      1395  0.0  0.0 264264  6156 ?        Sl   Feb20   0:00 /usr/lib/ibus/ibus-dconf
+abby      1396  0.0  0.1 477764 30300 ?        Sl   Feb20   0:06 /usr/lib/ibus/ibus-ui-gtk3
+abby      1399  0.0  0.1 428424 22932 ?        Sl   Feb20   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+abby      1419  0.0  0.0 338004  5708 ?        Sl   Feb20   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+abby      1424  0.0  0.0  43020  3880 ?        S    Feb20   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+abby      1427  0.0  0.0 206864  6404 ?        Sl   Feb20   0:02 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+abby      1430  0.0  0.0 188520  5992 ?        Sl   Feb20   0:06 /usr/lib/ibus/ibus-engine-simple
+abby      1437  0.0  0.0 166536   716 ?        Ss   Feb20   0:01 gpg-agent --homedir /home/abby/.gnupg --use-standard-socket --daemon
+abby      1449  0.0  0.2 648908 39492 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+abby      1451  0.0  0.2 1265892 33088 ?       Ssl  Feb20   0:02 /usr/lib/unity-settings-daemon/unity-settings-daemon
+abby      1459  0.0  0.0 558292 14880 ?        Ssl  Feb20   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+abby      1470  0.0  0.2 791928 38772 ?        Ssl  Feb20   0:12 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+abby      1496  0.0  0.0 178796  5000 ?        Sl   Feb20   0:00 /usr/lib/dconf/dconf-service
+abby      1503  0.7  0.8 1429608 140340 ?      Ssl  Feb20   9:05 compiz
+root      1512  0.0  0.0 347312  9784 ?        Ssl  Feb20   0:03 /usr/lib/upower/upowerd
+abby      1532  0.0  0.0 354412  7068 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+abby      1537  0.0  0.0 407120  5580 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+abby      1539  0.0  0.0 780188 15868 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+abby      1543  0.0  0.1 1102652 17216 ?       Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+abby      1545  0.0  0.1 715152 27504 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+abby      1549  0.0  0.0 745584 10516 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+abby      1550  0.0  0.1 547924 24968 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+abby      1552  0.0  0.0 821804  6404 ?        Ssl  Feb20   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+abby      1573  0.0  0.0 403148 12744 ?        Ssl  Feb20   0:03 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+root      1577  0.0  0.0  31956  4328 ?        Ss   Feb20   0:00 /usr/lib/bluetooth/bluetoothd
+abby      1585  0.0  0.1 1111820 23424 ?       Sl   Feb20   0:00 /usr/lib/evolution/evolution-source-registry
+abby      1621  0.0  0.3 863112 59908 ?        Sl   Feb20   0:00 /usr/lib/evolution/evolution-calendar-factory
+abby      1636  2.8  0.1 500840 18780 ?        S<l  Feb20  32:36 /usr/bin/pulseaudio --start --log-target=syslog
+abby      1639  0.0  0.3 881656 49688 ?        Sl   Feb20   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1621x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1621/2
+rtkit     1641  0.0  0.0 183544  3016 ?        SNsl Feb20   0:00 /usr/lib/rtkit/rtkit-daemon
+abby      1660  0.0  0.1 690568 18072 ?        Sl   Feb20   0:00 /usr/lib/evolution/evolution-addressbook-factory
+abby      1662  0.0  0.3 865912 49556 ?        Sl   Feb20   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1621x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1621/3
+abby      1669  0.0  0.1 905328 18424 ?        Sl   Feb20   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1660x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1660/2
+abby      1714  0.0  0.0  22368  1108 ?        S    Feb20   0:00 syndaemon -i 1.0 -t -K -R
+abby      1715  0.0  0.3 967508 55004 ?        Sl   Feb20   0:14 nm-applet
+abby      1716  0.0  0.7 1357160 129516 ?      SLl  Feb20   0:03 /usr/bin/gnome-software --gapplication-service
+abby      1717  0.0  0.1 429896 22660 ?        Sl   Feb20   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+abby      1718  0.0  0.3 939632 63036 ?        Sl   Feb20   0:02 nautilus -n
+abby      1721  0.0  0.1 577540 22232 ?        Sl   Feb20   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+abby      1740  0.0  0.0 285444  7488 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1743  0.0  0.0 432524  7792 ?        Ssl  Feb20   0:00 /usr/lib/udisks2/udisksd --no-debug
+abby      1752  0.0  0.0 271716  5092 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+abby      1758  0.0  0.0 257528  5004 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+abby      1763  0.0  0.0 259520  4548 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+abby      1768  0.0  0.0 403608  8732 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+nobody    1804  0.0  0.0  52864  4040 ?        S    Feb20   0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+abby      1898  0.0  0.4 528068 69056 ?        Sl   Feb20   0:10 /usr/lib/x86_64-linux-gnu/notify-osd
+abby      1958  0.0  0.0 350572  6388 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+whoopsie  1966  0.0  0.0 447724 12372 ?        Ssl  Feb20   0:00 /usr/bin/whoopsie -f
+root      1969  0.0  0.0  15936  1764 tty1     Ss+  Feb20   0:00 /sbin/agetty --noclear tty1 linux
+abby      1997  0.0  0.0 186284  5644 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfsd-metadata
+abby      2020  0.0  0.1 551188 16460 ?        Sl   Feb20   0:00 zeitgeist-datahub
+abby      2027  0.0  0.0   4504   712 ?        S    Feb20   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+abby      2031  0.0  0.0 410208  7104 ?        Sl   Feb20   0:00 /usr/bin/zeitgeist-daemon
+abby      2038  0.0  0.0 317264 15172 ?        Sl   Feb20   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+abby      2108  0.0  0.1 524120 25864 ?        Sl   Feb20   0:00 update-notifier
+abby      2528  0.0  0.0 435452  6952 ?        Sl   Feb20   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+abby      2576  0.0  0.0  61164  5136 ?        S    Feb20   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+abby      2754  0.0  0.2 659600 34868 ?        Sl   Feb20   0:07 /usr/lib/gnome-terminal/gnome-terminal-server
+abby      2760  0.0  0.0  22720  5344 pts/2    Ss   Feb20   0:00 bash
+abby      2794  0.0  0.0  12568  1740 pts/2    S    Feb20   0:00 /bin/bash /usr/bin/atom endswith.c
+abby      2796  0.9  1.8 1751188 295820 pts/2  Sl   Feb20  10:44 /usr/share/atom/atom --executed-from=/home/abby/SoftSys/ExercisesInC/exercises/ex03 --pid=2783 endswith.c
+abby      2798  0.0  0.1 388252 29264 pts/2    S    Feb20   0:00 /usr/share/atom/atom --type=zygote --no-sandbox
+abby      2827  0.1  0.4 443640 78216 pts/2    Sl   Feb20   1:21 /usr/share/atom/atom --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,23,74 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x10de --gpu-device-id=0x134e --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0x591b --service-request-channel-token=3B7D98923182BFCC2F9040B82276CFE2
+abby      2842  0.3  2.1 2016040 342704 pts/2  Rl   Feb20   4:22 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=99B9666A9F99A5854E9F06FBFB3AA985 --lang=en-US --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=99B9666A9F99A5854E9F06FBFB3AA985 --renderer-client-id=4 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+abby      2877  0.0  0.2 145948 38688 pts/2    S    Feb20   0:00 python /home/abby/.atom/packages/python-tools/lib/tools.py
+abby      2922  0.0  1.3 1175308 216476 pts/2  Sl   Feb20   0:02 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=AC8CB55500B1DC58223F8F5B5DD115CD --lang=en-US --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=AC8CB55500B1DC58223F8F5B5DD115CD --renderer-client-id=6 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+abby      3045  1.5  3.2 2658884 521552 ?      Sl   Feb20  17:55 /usr/lib/firefox/firefox
+root      3093  0.0  0.0  45140  4032 ?        Ss   06:49   0:00 /lib/systemd/systemd-udevd
+abby      3124  2.5  3.3 2553084 542064 ?      Sl   Feb20  29:33 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 171408 -schedulerPrefs 0001,2 -parentBuildID 20181207230928 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3045 true tab
+abby      3216  0.2  1.0 1594748 166464 ?      Sl   Feb20   2:17 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 242 -prefMapSize 171408 -schedulerPrefs 0001,2 -parentBuildID 20181207230928 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3045 true tab
+abby      3307  3.9  3.9 2455720 636876 ?      Sl   Feb20  45:17 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5888 -prefMapSize 171408 -schedulerPrefs 0001,2 -parentBuildID 20181207230928 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3045 true tab
+root      3337  0.0  0.1 484292 28888 ?        Ssl  06:49   0:02 /usr/lib/snapd/snapd
+abby      3384  0.7  2.7 2419872 455292 ?      Sl   Feb20   8:27 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 6963 -prefMapSize 171408 -schedulerPrefs 0001,2 -parentBuildID 20181207230928 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3045 true tab
+abby      3576  0.0  0.0 326304  9080 ?        Sl   Feb20   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+abby      3593  4.7  5.0 2661056 824460 ?      Sl   Feb20  53:38 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 8870 -prefMapSize 171408 -schedulerPrefs 0001,2 -parentBuildID 20181207230928 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3045 true tab
+abby      4286  0.0  0.0 327320  8656 ?        Sl   Feb20   0:05 /usr/lib/speech-dispatcher-modules/sd_espeak /etc/speech-dispatcher/modules/espeak.conf
+abby      4291  0.0  0.0 289012  5012 ?        Sl   Feb20   0:05 /usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/generic.conf
+abby      4294  0.0  0.0 289000  4916 ?        Sl   Feb20   0:05 /usr/lib/speech-dispatcher-modules/sd_cicero /etc/speech-dispatcher/modules/cicero.conf
+abby      4295  0.0  0.0      0     0 ?        Z    Feb20   0:00 [sd_cicero] <defunct>
+abby      4298  0.0  0.0 289000  5000 ?        Sl   Feb20   0:05 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+abby      4301  0.0  0.0  97216  2404 ?        Ssl  Feb20   0:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+root     10891  0.0  0.0  93384  7912 ?        Ss   07:35   0:00 /usr/sbin/cupsd -l
+root     10892  0.0  0.0 278868 11624 ?        Ssl  07:35   0:00 /usr/sbin/cups-browsed
+lp       10895  0.0  0.0  81244  5624 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp       11006  0.0  0.0  81244  5608 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+abby     12832  0.0  0.0 426672  6768 ?        Sl   09:51   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/8
+abby     12958  0.0  0.0 361712  7208 ?        Sl   09:51   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/26
+root     14789  0.0  0.0      0     0 ?        S    12:23   0:00 [kworker/0:4]
+avahi    14898  0.0  0.0  45044  3684 ?        Ss   12:23   0:00 avahi-daemon: running [abby-Latitude-5480.local]
+avahi    14899  0.0  0.0  44784   348 ?        S    12:23   0:00 avahi-daemon: chroot helper
+root     15012  0.0  0.0      0     0 ?        S    12:24   0:00 [kworker/3:3]
+root     15970  0.0  0.0      0     0 ?        S    14:02   0:00 [kworker/2:0]
+abby     16026  0.1  0.8 1360904 131424 ?      Sl   14:04   0:13 evince /home/abby/Downloads/Head_First_C_chaps1-3.pdf
+abby     16033  0.0  0.0 178496  4020 ?        Sl   14:04   0:00 /usr/lib/evince/evinced
+root     16146  0.0  0.0      0     0 ?        S    14:07   0:00 [kworker/1:1]
+root     16154  0.0  0.0      0     0 ?        S    14:08   0:00 [kworker/5:0]
+root     16173  0.0  0.0      0     0 ?        S    14:09   0:00 [kworker/u16:0]
+root     16373  0.0  0.0      0     0 ?        S    14:18   0:00 [kworker/7:0]
+root     16425  0.0  0.0      0     0 ?        S    14:20   0:00 [kworker/6:0]
+root     16426  0.0  0.0      0     0 ?        S    14:20   0:00 [kworker/u16:2]
+root     16518  0.0  0.0      0     0 ?        S    14:25   0:00 [kworker/5:2]
+root     16592  0.0  0.0      0     0 ?        S    14:28   0:02 [kworker/4:1]
+root     16644  0.0  0.0      0     0 ?        S    14:31   0:00 [kworker/3:1]
+root     16645  0.0  0.0      0     0 ?        S    14:31   0:00 [kworker/0:0]
+root     16723  0.0  0.0      0     0 ?        S    14:34   0:01 [kworker/6:1]
+root     16732  0.0  0.0      0     0 ?        S    14:35   0:00 [kworker/2:1]
+root     16733  0.0  0.0      0     0 ?        S    14:35   0:00 [kworker/2:3]
+root     16743  0.0  0.0      0     0 ?        S    14:35   0:00 [kworker/7:1]
+root     16782  0.0  0.0      0     0 ?        S    14:37   0:00 [kworker/4:0]
+root     16800  0.0  0.0      0     0 ?        S    14:39   0:00 [kworker/1:2]
+root     16816  0.0  0.0      0     0 ?        S    14:41   0:00 [kworker/u16:1]
+root     16842  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/3:0]
+root     16851  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/5:1]
+root     16857  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/6:2]
+root     16872  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/0:1]
+root     16873  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/7:2]
+root     16909  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/4:2]
+root     16910  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/2:2]
+root     16971  0.0  0.0      0     0 ?        S    14:42   0:00 [kworker/4:3]
+root     16999  0.0  0.0      0     0 ?        S    14:44   0:00 [kworker/1:0]
+root     17050  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:3]
+root     17076  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:4]
+root     17077  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:5]
+root     17078  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:6]
+root     17079  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:7]
+root     17080  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:8]
+root     17081  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:9]
+root     17082  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:10]
+root     17083  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:11]
+root     17084  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:12]
+root     17085  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:13]
+root     17086  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:14]
+root     17087  0.0  0.0      0     0 ?        D    14:45   0:00 [kworker/u16:15]
+root     17088  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:16]
+root     17089  0.0  0.0      0     0 ?        S    14:45   0:00 [kworker/u16:17]
+root     17090  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:18]
+root     17091  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:19]
+root     17092  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:20]
+root     17093  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:21]
+root     17094  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:22]
+root     17095  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:23]
+root     17096  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:24]
+root     17097  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:25]
+root     17098  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:26]
+root     17099  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:27]
+root     17100  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:28]
+root     17101  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:29]
+root     17102  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:30]
+root     17103  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:31]
+root     17104  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:32]
+root     17105  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:33]
+root     17106  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:34]
+root     17107  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:35]
+root     17108  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:36]
+root     17109  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:37]
+root     17110  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:38]
+root     17111  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:39]
+root     17112  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:40]
+root     17113  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:41]
+root     17114  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:42]
+root     17115  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:43]
+root     17116  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:44]
+root     17117  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:45]
+root     17118  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:46]
+root     17119  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:47]
+root     17120  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:48]
+root     17121  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:49]
+root     17122  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:50]
+root     17123  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:51]
+root     17124  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:52]
+root     17125  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:53]
+root     17126  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:54]
+root     17127  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:55]
+root     17128  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:56]
+root     17129  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:57]
+root     17130  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:58]
+root     17131  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:59]
+root     17132  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:60]
+root     17133  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/u16:61]
+root     17134  0.0  0.0      0     0 ?        S    17:20   0:00 [irq/127-mei_me]
+root     17155  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/0:2]
+root     17158  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/6:3]
+root     17159  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/6:4]
+root     17184  0.0  0.0      0     0 ?        S    17:20   0:00 [kworker/0:3]
+root     17197  0.0  0.0  16124  3644 ?        S    17:20   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp3s0.pid -lf /var/lib/NetworkManager/dhclient-f54e8aac-9fcc-4d56-84df-62f9f6460c92-wlp3s0.lease -cf /var/lib/NetworkManager/dhclient-wlp3s0.conf wlp3s0
+root     17366  0.0  0.0      0     0 ?        S    17:21   0:00 [kworker/4:4]
+abby     17505  0.0  0.0  37364  3292 pts/2    R+   17:25   0:00 ps -aux
