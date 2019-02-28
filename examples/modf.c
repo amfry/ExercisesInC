@@ -31,7 +31,10 @@ length: number of elements in the array
 
 returns: new array, caller must free
 */
-// TODO: Write this function
+void get_both_parts(double input, int element){
+
+}
+
 
 void test_get_int_part()
 {
@@ -57,6 +60,7 @@ p: location where the address of the frac_array should go
 returns: new array, caller must free
 */
 //TODO: Write this function
+
 
 
 void test_get_both_parts()
