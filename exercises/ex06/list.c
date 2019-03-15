@@ -82,10 +82,24 @@ void push(Node** list, int val) {
 * returns: number of nodes removed
 */
 int remove_by_value(Node **list, int val) {
-    int nodes_rm = 0; //nodes removed
     Node *current = *list;
-    
-    return nodes_rm;
+    Node *previous = current;
+
+    while (current != NULL){
+      current = previous ->next;
+      if (previous -> val == val){
+        if (previous==*list){
+          *list = current;
+          return 1;
+        }
+      }
+      if (current !=NULL && current->val ==val){
+        previous ->next = current->next;
+        return 1;
+      }
+      previous = current;
+    }
+    return 0;
 }
 
 
@@ -96,12 +110,12 @@ int remove_by_value(Node **list, int val) {
 * list: pointer to pointer to Node
 */
 void reverse(Node **list) {
-    struct Node* previous = NULL;
-    struct Node* current = *list;
-    struct Node* next = NULL;
+    Node* previous = NULL;
+    Node* current = *list;
+    Node* next = NULL;
     while (current != NULL)
     {
-      next= current->next;
+      next = current->next;
       current->next =previous;// reverse the current node's pointer
       previous = current; //move pointer position
       current = next;
