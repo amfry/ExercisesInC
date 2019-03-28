@@ -176,12 +176,15 @@ int hash_hashable(Hashable *hashable)
 *
 * returns: 1 if equal, 0 otherwise
 */
-int equal_int (void *ip, void *jp)
-{
-    // FILL THIS IN!
-    return 0;
+int equal_int (void *ip, void *jp){
+    if ((*(int*)ip - *(int*)jp ) != 0)
+    {
+      return 0;
+    }
+      else {
+        return 1;
+      }
 }
-
 
 /* Compares strings.
 *
@@ -190,11 +193,21 @@ int equal_int (void *ip, void *jp)
 *
 * returns: 1 if equal, 0 otherwise
 */
-int equal_string (void *s1, void *s2)
-{
-    // FILL THIS IN!
-    return 0;
+int equal_string (void *s1, void *s2){
+  char *str1 = (char *)s1;
+  char *str2 = (char *)s2;
+  int c = sizeof(s1);
+  int i;
+  for (i=1; i<= c; i++){
+    if (str1[i] == str2[i]){  //compare each element of the 1st array to the corrresponding element in 2nd array
+      continue;}
+      else{
+        return 1;
+      }
+    }
+  return 0;
 }
+
 
 
 /* Compares Hashables.
@@ -206,9 +219,13 @@ int equal_string (void *s1, void *s2)
 *
 */
 int equal_hashable(Hashable *h1, Hashable *h2)
+//confused about how the void pointers and the struct are supposed to interact here
 {
-    // FILL THIS IN!
-    return 0;
+    if (h1 == h2){
+      return 1;
+    }
+      else{
+    return 0;}
 }
 
 
@@ -296,7 +313,11 @@ Node *prepend(Hashable *key, Value *value, Node *rest)
 /* Looks up a key and returns the corresponding value, or NULL */
 Value *list_lookup(Node *list, Hashable *key)
 {
-    // FILL THIS IN!
+    while (list != NULL){
+      if (list->key ==key){
+        return list->value;
+      }
+    }
     return NULL;
 }
 
