@@ -221,11 +221,7 @@ int equal_string (void *s1, void *s2){
 int equal_hashable(Hashable *h1, Hashable *h2)
 //confused about how the void pointers and the struct are supposed to interact here
 {
-    if (h1 == h2){
-      return 1;
-    }
-      else{
-    return 0;}
+  return h1->equal(h1->key, h2->key); //access equal fucntion in hashable and then compare keys using
 }
 
 
@@ -315,7 +311,7 @@ Value *list_lookup(Node *list, Hashable *key)
 {
     while (list != NULL){
       if (list->key ==key){
-        return list->value;
+        return list->value; //retrun value from key lookup
       }
     }
     return NULL;
@@ -362,15 +358,21 @@ void print_map(Map *map)
 /* Adds a key-value pair to a map. */
 void map_add(Map *map, Hashable *key, Value *value)
 {
-    // FILL THIS IN!
+    Node *new;
+    if (map->lists[hash_hashable(key) % map->n] != NULL){
+      new = prepend(key,value, map->lists[hash_hashable(key) % map->n]);
+    }
+    else{
+      new = make_node(key,value,NULL);
+    }
+    map->lists = new;
 }
 
 
 /* Looks up a key and returns the corresponding value, or NULL. */
 Value *map_lookup(Map *map, Hashable *key)
 {
-    // FILL THIS IN!
-    return NULL;
+    return list_lookup(map->lists[hash_hashable(key) % map->n], key);
 }
 
 
