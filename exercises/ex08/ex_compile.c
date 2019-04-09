@@ -2,6 +2,8 @@
 
 From http://www.ibm.com/developerworks/linux/tutorials/l-glib/
 
+Answers to the reading questions
+
 */
 
 #include <stdio.h>
