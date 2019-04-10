@@ -1,3 +1,2 @@
-
-ex_compile: ex_compile.c
-	gcc ex_compile.c -Wall -o test `pkg-config --cflags --libs glib-2.0`
+word_Count: word_count.c
+	gcc word_count.c -Wall -o test `pkg-config --cflags --libs glib-2.0`
