@@ -43,10 +43,27 @@ int main(int argc, char *argv[])
         sprintf(var, "RSS_FEED=%s", feeds[i]);
         char *vars[] = {var, NULL};
 
-        int res = execle(PYTHON, PYTHON, SCRIPT, search_phrase, NULL, vars);
-        if (res == -1) {
-            error("Can't run script.");
+        pid_t pid = fork();
+          if(pid !=-1){
+            error ("Cant fork process");
+          }
+
         }
+        if(!pid){
+          int res = execle(PYTHON, PYTHON, SCRIPT, search_phrase, NULL, vars);
+          if (res == -1) {
+            error("Can't run script.");
+            return 1;
+          }
+
     }
-    return 0;
+    else{
+          pid_t ppid = wait(&child_status);
+          while (pid != ppid){
+            ppid = wait(&child_status);
+    }
+}
+  }
+}
+   return 0;
 }
