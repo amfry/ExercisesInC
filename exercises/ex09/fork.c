@@ -18,6 +18,11 @@ License: MIT License https://opensource.org/licenses/MIT
 // errno is an external global variable that contains
 // error information
 extern int errno;
+int *pointer_check = NULL;
+int global_check = 0; //there is access to global varaibles
+
+//parent and child do not have access to the same stack
+
 
 
 // get_seconds returns the number of seconds since the
@@ -33,7 +38,15 @@ double get_seconds() {
 void child_code(int i)
 {
     sleep(i);
+    //int c = 0;
     printf("Hello from child %d.\n", i);
+    global_check ++;
+    //check global for the child
+    printf("Checking global access %d.\n",global_check);
+    //printf("Stack varailble %d\n",c );
+    *pointer_check++;
+    printf("Checking heap access %d\n", pointer_check);
+
 }
 
 // main takes two parameters: argc is the number of command-line
@@ -44,6 +57,7 @@ int main(int argc, char *argv[])
     int status;
     pid_t pid;
     double start, stop;
+    pointer_check = malloc(sizeof(int));
     int i, num_children;
 
     // the first command-line argument is the name of the executable.
@@ -79,6 +93,10 @@ int main(int argc, char *argv[])
 
     /* parent continues */
     printf("Hello from the parent.\n");
+
+    printf("Check global access %d\n",global_check);
+    //printf("Check for stack access %d\n",c);  //no stack access
+    printf("Checking heap access %d\n", pointer_check);
 
     for (i=0; i<num_children; i++) {
         pid = wait(&status);
