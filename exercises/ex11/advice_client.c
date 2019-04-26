@@ -21,7 +21,16 @@ int open_socket(char *host, char *port){
   if (s == -1) {
     error("Can't open socket");
   }
-  name.sin
+  struct sockaddr_in si;
+  memset(&si, 0, sizeof(si));
+  si.sin_family = PF_INET;
+  si.sin_addr.s_addr = inet_addr(host);
+  si.sin_port = htons(30000);
+  int c = connect(s, (struct sockaddr *) &si, sizeof(si));
+  if (c==-1){
+  	error("Can't connoct to the socket");
+    }
+return s;
 }
 
 
