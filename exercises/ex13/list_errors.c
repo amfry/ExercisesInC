@@ -31,6 +31,15 @@ Node *make_node(int val, Node *next) {
     return node;
 }
 
+void free_node(Node **list){
+  Node *current = *list;
+
+  while(current != NULL){
+    Node *previous = current;
+    current = current -> next;
+    free(previous);
+  }
+}
 /* Prints the values in a list.
 *
 * list: pointer to pointer to Node
@@ -205,9 +214,13 @@ int main() {
     // add an element to the empty list
     insert_by_index(&empty, 1, 0);
     print_list(&empty);
+    free_node(&test_list);
+    free_node(&empty);
 
     Node *something = make_something();
-    free(something);
+    free_node(&something);
+
+
 
     return 0;
 }
