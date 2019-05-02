@@ -1,13 +1,9 @@
 /* Example code for Exercises in C
-
 Copyright 2016 Allen Downey
 License: Creative Commons Attribution-ShareAlike 3.0
-
 Started with ex-ghashtable-3.c from
 http://www.ibm.com/developerworks/linux/tutorials/l-glib/section5.html
-
 Note: this version leaks memory.
-
 */
 
 #include <stdio.h>
@@ -58,6 +54,12 @@ void accumulator(gpointer key, gpointer value, gpointer user_data)
         NULL);
 }
 
+
+void free_pair((gpointer value){
+  Pair *value = (Pair *)p;
+  g_free(value)->word);
+  g_free(value);
+}
 /* Increments the frequency associated with key. */
 void incr(GHashTable* hash, gchar *key)
 {
@@ -93,7 +95,7 @@ int main(int argc, char** argv)
     (one-L) NUL terminated strings */
     gchar **array;
     gchar line[128];
-    GHashTable* hash = g_hash_table_new(g_str_hash, g_str_equal);
+    GHashTable* hash = g_hash_table_new(g_str_hash, g_str_equal,g_free,g_free);
 
     // read lines from the file and build the hash table
     while (1) {
@@ -111,13 +113,13 @@ int main(int argc, char** argv)
     // g_hash_table_foreach(hash, (GHFunc) kv_printor, "Word %s freq %d\n");
 
     // iterate the hash table and build the sequence
-    GSequence *seq = g_sequence_new(NULL);
+    GSequence *seq = GSequence_new((GDestroyNotify) pair_destructor);
     g_hash_table_foreach(hash, (GHFunc) accumulator, (gpointer) seq);
 
     // iterate the sequence and print the pairs
     g_sequence_foreach(seq, (GFunc) pair_printor, NULL);
 
-    // try (unsuccessfully) to free everything
+    //free everything
     g_hash_table_destroy(hash);
     g_sequence_free(seq);
 
